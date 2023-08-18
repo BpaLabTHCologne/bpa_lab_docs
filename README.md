@@ -63,6 +63,10 @@ BPALab_22_Prototype_IOT: Results of Guided Project WS 22/23 for IOT solution wit
 
 IoT-aware-BP: Master thesis at BPA Lab, focusing on how to integrate process and IoT data in terms of architecture, process modelling, etc. Implementation based on Camunda 8! Concepts will be used for future design. Integration of warehouse robots in business process (manufacturing and shipping) to be considered. IOT device setup must be combined with results from BPALab_22_Prototype_IOT (which uses more sophisticated setup).  
 
+## Business process of demonstration factory
+
+ToDo: Description of the business process of the bicycle manufacturing company (based on slides, BA Chlopek, BA Gonzalez and others)
+
 ## deployment diagram
 
 ![deployment](BPALABDeploymentDiagram.png "Deployment")
