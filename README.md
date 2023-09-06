@@ -1,25 +1,25 @@
 # bpa_lab_docs 
 ## about the BPA lab
-The BPA Lab is a modular model factory specifically focused on process automation and data-driven process analysis. 
+The Business Process Automation Lab (BPA Lab) at the TH Cologne is a small-sized and modular model factory specifically focused on process automation and data-driven process analysis. 
 
 The BPA Lab has two main goals: 
 
-1) Demonstration Factory: Demonstrate concepts and technologies for intelligent process automation. To this end, various hardware and software components such as BPMS, RPA, IoT devices, and Fischertechnik robots will be combined to simulate the production and logistics processes of a bicycle manufacturing company. In addition, technologies such as process mining will be used to demonstrate how business processes can be improved through a data-driven approach. 
+1) Demonstration: Demonstrate concepts and technologies for intelligent process automation. To this end, various hardware and software components such as BPMS, RPA, IoT devices, and Fischertechnik robots will be combined to simulate the production and logistics processes of a bicycle manufacturing company. In addition, technologies such as process mining will be used to demonstrate how business processes can be improved through a data-driven approach. 
 
-2) Modules for process automation: Individual components of the BPA Lab (like the Fischertechnik warehouse robot) will be used in student projects (Bachelor) as building blocks for self-defined processes to teach the aspect of process-oriented application integration in a tangible way. 
+2) Teaching: Individual components of the BPA Lab (like the Fischertechnik warehouse robot) will be used in student projects (Bachelor) as building blocks for self-defined process implementations to teach the aspect of process-oriented application integration in a tangible way. 
 
 ## about this repository 
-This repository contains documentation about the BPA Lab as a Demonstration Factory. The  which is supposed to simulate a bicycle ordering, manufacturing and shipment process.
+This repository contains documentation about the BPA Lab as a Demonstration Factory. The demonstration scenario is an end-to-end bicycle ordering, manufacturing and shipment process.
 
-Please refer to the bpa_lab_student_docs repository (wiki) for documentation on using modules within the BPA Lab (e.g. warehouse robot) to design and implement other business processes and refer to bpa_lab_papyrus_uml for raw data of architecture diagrams created in Papyrus.
+Please refer to the bpa_lab_student_docs repository (wiki) for documentation on how to use individual  modules of the BPA Lab (e.g. warehouse robot) inside other process implementation projects and refer to bpa_lab_papyrus_uml for raw data of architecture diagrams created in Papyrus.
 
-## about repositories in BpaLabTHCologne organization
-In 2023, first components based on a new architecture were designed. The architecture is still under development (extensions needed), but will cover at least the three levels shown in the simplified overview:
+## about components and its repositories in BpaLabTHCologne organization
+In 2023, the first components based on a new architecture were designed. The architecture is still under development, but will cover at least the three levels shown in the simplified overview:
 - Controller: control of hardware components (which are: FT learning factory, FT robots, IOT devices)
-- Job Worker (Zeebe / Camunda 8) communicating via gRPC to Camunda 8 and via MQQT to  controllers
-- Process / workflow engine: Camunda 8 (cloud or self-managed) executing various processes and decision models (currently Camunda 8 Cloud - move to self-managed platform planned)
+- Process applications communicating via gRPC to Camunda 8 and via MQQT to controllers
+- Process / workflow engine: Camunda 8 (cloud or self-managed) platform executing various processes and decision models of the process applications (currently Camunda 8 Cloud - move to self-managed platform planned)
 
-A modular design following a Domain Driven Design approach is envisaged to enable parallel student projects. Therefore, job workers and process models should be splitted by domain (order management, manufacturing, shipping, ...). 
+A modular design following a Domain Driven Design approach is envisaged to enable parallel work on student projects. Therefore, job workers and process models should be splitted by domain (order management, manufacturing, shipping, ...). 
 
 ### simplified overview 
 
@@ -35,21 +35,21 @@ bpa_lab_txt_warehouse_control: Control component for the Fischertechnik warehous
 
 bpa_lab_ft_factory_control: Control component for the Fischertechnik Learning Factory 
 
-### Communication between Controler and Job worker level:
+### Communication between Controler and Process Applications level:
 
 bpa_lab_broker: Info on MQQT setup; required for communication of controller and job worker 
 
-### Job Worker level:
+### Process application level:
 
-The job worke implementation do include process models for testing. These are not integrated with each other yet.
+The process applications do include smaller process models for testing. These are not yet integrated with each other to implement the envisaged end-to-end business processe of a bicycle manufacturing company.
 
-bpa_lab_warehouse_robot: Zeebe (Camunda 8) job worker communicated via MQQT with bpa_lab_txt_warehouse_control and via gRPC with Camunda 8 (Cloud). Implementation includes simpliefied business process, databases etc.
+bpa_lab_warehouse_robot: Zeebe (Camunda 8) job worker communicated via MQQT with bpa_lab_txt_warehouse_control and via gRPC with Camunda 8 (Cloud). Implementation includes simplified business process, databases etc.
 
 bpa_lab_ft_factory_zeebemqttbridge: Zeebe (Camunda 8) job worker communicated via MQQT with bpa_lab_ft_factory_control
 
-### Process level: 
+### Workflow Engine: 
 
-Remark: There is currently no implementation of an end-to-end business process like e.g. implemented in BPALab_GP22_23 based on depreciated architecture. 
+The implementation currently uses the Camunda 8 workflow engine (Software as a service plattform). Process models are deployed by the process applications. No customization / extension is foreseen here. 
 
 ## about depreciated repositories in BpaLabTHCologne organization
 
