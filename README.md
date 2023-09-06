@@ -67,6 +67,9 @@ IoT-aware-BP: Master thesis at BPA Lab, focusing on how to integrate process and
 
 ToDo: Description of the business process of the bicycle manufacturing company (based on slides, BA Chlopek, BA Gonzalez and others)
 
+
+![process landscape](process-landscape.png "Process landscape")
+
 ## deployment diagram
 
 ![deployment](BPALABDeploymentDiagram.png "Deployment")
