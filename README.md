@@ -23,7 +23,7 @@ A modular design following a Domain Driven Design approach is envisaged to enabl
 
 ### simplified overview 
 
-![simplified overview](BPALab_Architecture_Incomplete_230817.png "Simplified overview")
+![simplified overview](BPALab_Architecture_Incomplete_230906.png "Simplified overview")
 
 ### repositories
 
