@@ -69,7 +69,7 @@ The following description depicts the to be business process in the BPA Lab for 
 
 The scenario: A bicycle manufacturer offers highly customizable bicycles to consumers 
 
-![process landscape](process-landscape.png "Process landscape")
+![process landscape](processmodels/process-landscape.png "Process landscape")
 
 The business process starts when a customer order is entered into a web portal (external web application), which triggers the end-to-end order management process. During the process, the availability of the ordered bike is checked. If a bike with the exact specifications is in stock, the shipping process is initiated. After shipment, an invoice is sent to the customer and the process is complete.
 In the standard scenario, the ordered bike is not in stock. A production order is created, specifying the required components based on a bill of material. If any component is missing, the purchasing process is initiated. Otherwise, the manufacturing process is initiated immediately. Once the product is manufactured, shipping is initiated.
@@ -77,15 +77,15 @@ Purchasing, manufacturing, and shipping use logistics processes. In purchasing, 
 
 The following diagrams contains strategic models for each process. The process model do not include technical aspects and illustrates the happy path only.
 
-![order management process](strategic_model_manufacturing.png "Manufacturing process")
+![order management process](processmodels/strategic_model_ordermgmt.png "Order management process")
 
-![purchasing process](strategic_model_manufacturing.png "Manufacturing process")
+![purchasing process](processmodels/strategic_model_purchasing.png "Purchasing process")
 
-![manufacturing process](strategic_model_manufacturing.png "Manufacturing process")
+![manufacturing process](processmodels/strategic_model_manufacturing.png "Manufacturing process")
 
-![shipment process](strategic_model_manufacturing.png "Manufacturing process")
+![shipment process](processmodels/strategic_model_shipment.png "Manufacturing process")
 
-![shipment process](strategic_model_manufacturing.png "Manufacturing process")
+![Logistics process](processmodels/strategic_model_logistics.png "Logistics (warhousing) process")
 
 ## deployment diagram
 
