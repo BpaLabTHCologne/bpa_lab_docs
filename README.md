@@ -65,28 +65,78 @@ IoT-aware-BP: Master thesis at BPA Lab, focusing on how to integrate process and
 
 ## Business process of demonstration factory
 
-The following description depicts the to be business process in the BPA Lab for Demonstration.
+The following description depicts the to be business process in the BPA Lab for Demonstration. It is  - work in progress - and requires improvements (harmonization of terms, more details, ...)
 
 The scenario: A bicycle manufacturer offers highly customizable bicycles to consumers 
 
 ![process landscape](processmodels/process-landscape.png "Process landscape")
 
-The business process starts when a customer order is entered into a web portal (external web application), which triggers the end-to-end order management process. During the process, the availability of the ordered bike is checked. If a bike with the exact specifications is in stock, the shipping process is initiated. After shipment, an invoice is sent to the customer and the process is complete.
-In the standard scenario, the ordered bike is not in stock. A production order is created, specifying the required components based on a bill of material. If any component is missing, the purchasing process is initiated. Otherwise, the manufacturing process is initiated immediately. Once the product is manufactured, shipping is initiated.
-Purchasing, manufacturing, and shipping use logistics processes. In purchasing, a purchased component is stocked. In manufacturing, components are picked from the warehouse and finished goods are put into stock. In the shipping process, finished goods are commissioned for shipment to the customer.
+The entire end-to-end process is managed by the order management process, which initiates purchasing, manufacturing, and shipping processes as needed. 
+Purchasing, manufacturing, and shipping use logistics processes.
 
-The following diagrams contains strategic models for each process. The process model do not include technical aspects and illustrates the happy path only.
+The following diagrams provide strategic models for each process. The process models do not include technical aspects and only illustrate the happy path.
+
+### order management
 
 ![order management process](processmodels/strategic_model_ordermgmt.png "Order management process")
 
+This process manages the fulfillment of customer orders.
+
+The process starts when a customer order is entered into a web portal (external web application), which triggers the end-to-end order management process. During the process, the availability of the ordered bike is checked. If a bike with the exact specifications is in stock, the shipping process is initiated. After shipping, an invoice is sent to the customer and the process is complete.
+
+In the standard scenario, the ordered bicycle is not in stock. A production order is created, specifying the required components based on a bill of materials. If any component is missing, the purchasing process is initiated. Otherwise, the manufacturing process is initiated immediately. Once the product is manufactured, shipping is initiated.
+
+
+### purchasing
+
 ![purchasing process](processmodels/strategic_model_purchasing.png "Purchasing process")
+
+This process manages the purchase of required components. The process starts when a component is needed. 
+
+First, a purchase order is created that specifies parameters such as vendor, material, and quantity. The system then sends the purchase order to the vendor. When the goods are received, an incoming inspection is performed. If a quality problem is detected, the materials are rejected and a new purchase order is created. Otherwise, the logistics process (putaway scenario) is triggered.  
+
+The process then marks the material requirement as fulfilled.
+
+### manufacturing
 
 ![manufacturing process](processmodels/strategic_model_manufacturing.png "Manufacturing process")
 
+This process manages the manufacturing of a finished good (product). The process is initiated when materials are available.
+
+First, a production planning activity is performed, which creates a production order. This production order is checked by the production planning staff. If the production order is not ok, the production planning has to be repeated. Otherwise, the components are transported to the factory. After that, the first step in the factory, which puts the material into the high-bay warehouse inside the factory, is performed by initiating the FT factory controller. 
+
+Then the production order is released and the actual manufacturing process is executed by once again initiating  the FT Factory Controller.  
+
+The finished goods are then transported to the warehouse (Fishertechnik robot) and put away.
+
+The process ends when the product is stored in the warehouse.
+
+### shipment
+
 ![shipment process](processmodels/strategic_model_shipment.png "Manufacturing process")
+
+This process manages the shipment of finished goods to the customer. The process begins when a product is in stock and ready to be shipped to the customer.
+
+First, a shipment object is created. This shipment is tendered (sent) to a Transportation Service Provider (TSP), which either accepts or rejects the shipment. This status is not entered manually but by an RPA robot (shipment robot). If a shipment is rejected, an alternative TSP is selected. After acceptance, the logistics process (picking scenario) is initiated. After goods issue, the physical transport is performed by the TSP. After the product is delivered to the customer, the TSP sets the order to "Delivered" in its system. This status update is once again transferred by the shipment RPA robot.
+
+### logistics (warehousing)
 
 ![Logistics process](processmodels/strategic_model_logistics.png "Logistics (warhousing) process")
 
+This process manages the flow of goods in a warehouse. This is represented by the Fischertechnik warehouse robot.
+The process begins when a transfer order for the warehouse is received by another business. This could be an instruction to move products in or out of the  warehouse.
+
+There are two scenarios:
+"Put-away (store)": This means a product needs to be stored in a specific storage location.
+"Picking (exstore)": This indicates that a product need to be retrieved from a specific storage location.
+
+If the transfer order is for "put-away (store)," the system checks if the specified storage location is actually available in the warehouse to store the products. This check is done by the warehouse staff. If the storage location is available, the process stores the product in the warehouse by calling the warehouse robot control module.  If the storage location is not available, the warehouse staff needs to specify an alternative storage location. After storing the product, the system updates the information about the warehouse's occupancy status in the inventory database.
+
+If the transfer order is for "picking (exstore)," the process involves checking the actual availability by the warehouse staff. If product is available the requested product are picked from the warehouse by calling the warehouse robot control module. After retrieving the product, the system updates the occupancy status of the storage location in the inventory database. 
+
+The process then marks the transfer order as completed, indicating that the requested action (storage or retrieval) has been successfully executed.
+
 ## deployment diagram
+UML deployment diagram
 
 ![deployment](BPALABDeploymentDiagram.png "Deployment")
