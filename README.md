@@ -103,7 +103,7 @@ The process then marks the material requirement as fulfilled.
 
 This process manages the manufacturing of a finished good (product). The process is initiated when materials are available.
 
-First, a production planning activity is performed, which creates a production order. This production order is checked by the production planning staff. If the production order is not ok, the production planning has to be repeated. Otherwise, the components are transported to the factory. After that, the first step in the factory, which puts the material into the high-bay warehouse inside the factory, is performed by initiating the FT factory controller. 
+First, a production planning activity is performed, which creates a production order. This production order is checked by the production planning staff. If the production order is not okay, the production planning has to be repeated. Otherwise, the components are transported to the factory. After that, the first step in the factory, which puts the material into the high-bay warehouse inside the factory, is performed by initiating the FT factory controller. 
 
 Then the production order is released and the actual manufacturing process is executed by once again initiating  the FT Factory Controller.  
 
@@ -135,6 +135,51 @@ If the transfer order is for "put-away (store)," the system checks if the specif
 If the transfer order is for "picking (exstore)," the process involves checking the actual availability by the warehouse staff. If product is available the requested product are picked from the warehouse by calling the warehouse robot control module. After retrieving the product, the system updates the occupancy status of the storage location in the inventory database. 
 
 The process then marks the transfer order as completed, indicating that the requested action (storage or retrieval) has been successfully executed.
+
+## Requirements and software architecture (work in progress)
+
+### requirements
+The following set of requirements has been gathered. It will be the basis for the definition of a software architecture for the BPA Lab (work in progress):
+
+R1: Independent operation of the components
+The individual components of the system should be able to run independently of each other.
+
+R2: Integration of external IT systems
+The system should allow seamless integration with existing IT systems, e.g. integration with the web application for order management or and Process Mining solution. 
+
+R3: Clear and distinct responsibilities
+The responsibilities of the individual components should be clearly defined and distinguished.
+
+R4: Easy expandability
+The system should be easily expandable with further self-developed components.
+
+R5: Interchangeability and further development of the components
+The components of the system should be independently further developable and interchangeable.
+
+R6: Comprehensive and flexible process data acquisition and provision
+Process data should be able to be comprehensively captured. Data should be stored and flexibly made available for various analyses.
+
+R7: User friendliness (operator perspective)
+The user interface of the system should be user-friendly to ensure a positive user experience.
+The user interface should be intuitive and easy to understand.
+
+R8: Easy installation and low infrastructure requirements (developer perspective)
+The system should be easy to install to allow students to host instances of the system.
+
+R9: Robustness
+The system architecture should be robust to minimize failures and ensure reliable functionality.
+The components should run stably under various operating conditions and avoid unexpected failures.
+
+R10: Maintainability and operation
+The system should be easy to maintain.
+
+### software architecture (work in progress)
+
+The following C4 diagrams (https://c4model.com/) show the context and containers (not equal to docker container) of the BPALab software architecture. Aspects are still under discussion and may be changed.
+
+![C4 context diagram](C4 architecture/c4-contextDiagram.drawio.png "C4 context diagram")
+
+![C4 container diagram](C4 architecture/c4-containerDiagram.drawio.png "C4 container diagram")
 
 ## deployment diagram
 UML deployment diagram
