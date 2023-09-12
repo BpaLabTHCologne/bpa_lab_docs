@@ -177,9 +177,9 @@ The system should be easy to maintain.
 
 The following C4 diagrams (https://c4model.com/) show the context and containers (not equal to docker container) of the BPALab software architecture. Aspects are still under discussion and may be changed.
 
-![C4 context diagram](C4 architecture/c4-contextDiagram.drawio.png "C4 context diagram")
+![C4 context diagram](C4architecture/c4-contextDiagram.drawio.png "C4 context diagram")
 
-![C4 container diagram](C4 architecture/c4-containerDiagram.drawio.png "C4 container diagram")
+![C4 container diagram](C4architecture/c4-containerDiagram.drawio.png "C4 container diagram")
 
 ## deployment diagram
 UML deployment diagram
