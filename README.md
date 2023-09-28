@@ -17,7 +17,7 @@ Please refer to the bpa_lab_student_docs repository (wiki) for documentation on 
 In 2023, the first components based on a new architecture were designed. The architecture is still under development, but will cover at least the three levels shown in the simplified overview:
 - Controller: control of hardware components (which are: FT learning factory, FT robots, IOT devices)
 - Process applications communicating via gRPC to Camunda 8 and via MQTT to controllers
-- Process / workflow engine: Camunda 8 (cloud or self-managed) platform executing various processes and decision models of the process applications (currently Camunda 8 Cloud - move to self-managed platform planned)
+- Process / workflow engine: Camunda 8 (self-managed) platform executing various processes and decision models of the process applications
 
 A modular design following a Domain Driven Design approach is envisaged to enable independent and parallel work on student projects on the factory. In addition, it should ease the use of building blocks in student projects in the bachelor programme. Therefore, one criteria for splitting job workers and process models is the business domain (order management, manufacturing, shipping, purchasing, logistics ...). 
 
@@ -49,7 +49,8 @@ bpa_lab_ft_factory_zeebemqttbridge: process application (Zeebe/Camunda 8 job wor
 
 ### Workflow Engine: 
 
-The implementation currently uses the Camunda 8 workflow engine (Software as a service plattform). Process models are deployed by the process applications. No customization / extension is foreseen here. 
+Process models are deployed by the process applications to a workflow engine (Camunda 8 / Zeebe). Camunda 8 is available as a Software as a Service platform, but the BPA Lab is using  a self-managed version (currently running on a server at TH Cologne). 
+We are currently using docker https://docs.camunda.io/docs/self-managed/platform-deployment/docker/, while helm/ kubernetes is recommended for production systems, but may cause issues for developers (in discussion).  
 
 ## about depreciated repositories in BpaLabTHCologne organization
 
@@ -175,11 +176,28 @@ The system should be easy to maintain.
 
 ### software architecture (work in progress)
 
-The following C4 diagrams (https://c4model.com/) show the context and containers (not equal to docker container) of the BPALab software architecture. Aspects are still under discussion and may be changed.
+The following C4 diagrams (https://c4model.com/) show the context and containers (not equal to the docker container) of the BPALab software architecture. Aspects are still under discussion and may be changed.
 
 ![C4 context diagram](C4architecture/c4-contextDiagram.drawio.png "C4 context diagram")
 
 ![C4 container diagram](C4architecture/c4-containerDiagram.drawio.png "C4 container diagram")
+
+### architecture questions and decisions (work in progress)
+
+In this section questions on architecture are raised and decisions recorded.
+
+Decision 1: MQQT broker to decouple process applications and controller (Done)
+
+Decision 2: Using the self-managed version of Camunda 8 (Done)
+
+Decision 3: Docker or helm/kubernetes installation of Camunda 8 (in progress)
+Working assumption: docker
+
+Decision 4: Communication between processes (in progress)
+Processes/process applications (order management, manufacturing, shipment, ...) need to communicate to each other
+Alternatives: call activities, sending/receiving events, task
+Working assumption: via message objects (modeling as BPMN sending/receiving events) for flexibility
+
 
 ## deployment diagram
 UML deployment diagram
