@@ -137,6 +137,12 @@ If the transfer order is for "picking (exstore)," the process involves checking 
 
 The process then marks the transfer order as completed, indicating that the requested action (storage or retrieval) has been successfully executed.
 
+## Domain model (data perspective) 
+The following domain model (DRAFT) depicts major master data and transactional data elements throughout the system (domain). The working assumption is that these data elements are stored in a database (open question: MongoDB or MySQL). 
+Remark: In addition, event data will be captured by process applications and controllers. This event data will be stored in MongoDB as a NoSQL database.   
+
+![data model](BpaLab_domain_model.pdf "Data model")
+
 ## Requirements and software architecture (work in progress)
 
 ### requirements
