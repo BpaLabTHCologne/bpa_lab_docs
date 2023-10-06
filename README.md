@@ -70,7 +70,7 @@ The following description depicts the to be business process in the BPA Lab for 
 
 The scenario: A bicycle manufacturer offers highly customizable bicycles to consumers 
 
-![process landscape](processmodels/process-landscape.png "Process landscape")
+![process landscape](processmodels/process_landscape.png "Process landscape")
 
 The entire end-to-end process is managed by the order management process, which initiates purchasing, manufacturing, and shipping processes as needed. 
 Purchasing, manufacturing, and shipping use logistics processes.
