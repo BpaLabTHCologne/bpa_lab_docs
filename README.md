@@ -1,5 +1,5 @@
 # bpa_lab_docs 
-## about the BPA lab
+## About the BPA lab
 The Business Process Automation Lab (BPA Lab) at the TH Cologne is a small-sized and modular model factory specifically focused on process automation and data-driven process analysis. 
 
 The BPA Lab has two main goals: 
@@ -8,12 +8,12 @@ The BPA Lab has two main goals:
 
 2) Teaching: Individual building blocks of the BPA Lab (like the Fischertechnik warehouse robot) will be used in student projects (Bachelor) as building blocks for self-defined process implementations to teach the aspect of process-oriented application integration in a tangible way. 
 
-## about this repository 
+## About this repository 
 This repository contains documentation about the BPA Lab as a Demonstration Factory. The demonstration scenario is an end-to-end bicycle ordering, manufacturing and shipment process.
 
 Please refer to the bpa_lab_student_docs repository (wiki) for documentation on how to use individual  modules of the BPA Lab (e.g. warehouse robot) inside other process implementation projects and refer to [bpa_lab_papyrus_uml](https://github.com/BpaLabTHCologne/bpa_lab_papyrus_uml) for raw data of architecture diagrams created in Papyrus.
 
-## about components and its repositories in BpaLabTHCologne organization
+## About components and its repositories in BpaLabTHCologne organization
 In 2023, the first components based on a new architecture were designed. The architecture is still under development, but will cover at least the three levels shown in the simplified overview:
 - Controller: control of hardware components (which are: FT learning factory, FT robots, IOT devices)
 - Process applications communicating via gRPC to Camunda 8 and via MQTT to controllers
@@ -77,7 +77,7 @@ Purchasing, manufacturing, and shipping use logistics processes.
 
 The following diagrams provide strategic models for each process. The process models do not include technical aspects and only illustrate the happy path.
 
-### order management
+### Order management
 
 ![order management process](processmodels/strategic_model_ordermgmt.png "Order management process")
 
@@ -88,7 +88,7 @@ The process starts when a customer order is entered into a web portal (external 
 In the standard scenario, the ordered bicycle is not in stock. A production order is created, specifying the required components based on a bill of materials. If any component is missing, the purchasing process is initiated. Otherwise, the manufacturing process is initiated immediately. Once the product is manufactured, shipping is initiated.
 
 
-### purchasing
+### Purchasing
 
 ![purchasing process](processmodels/strategic_model_purchasing.png "Purchasing process")
 
@@ -98,7 +98,7 @@ First, a purchase order is created that specifies parameters such as vendor, mat
 
 The process then marks the material requirement as fulfilled.
 
-### manufacturing
+### Manufacturing
 
 ![manufacturing process](processmodels/strategic_model_manufacturing.png "Manufacturing process")
 
@@ -112,7 +112,7 @@ The finished goods are then transported to the warehouse (Fishertechnik robot) a
 
 The process ends when the product is stored in the warehouse.
 
-### shipment
+### Shipment
 
 ![shipment process](processmodels/strategic_model_shipment.png "Manufacturing process")
 
@@ -120,7 +120,7 @@ This process manages the shipment of finished goods to the customer. The process
 
 First, a shipment object is created. This shipment is tendered (sent) to a Transportation Service Provider (TSP), which either accepts or rejects the shipment. This status is not entered manually but by an RPA robot (shipment robot). If a shipment is rejected, an alternative TSP is selected. After acceptance, the logistics process (picking scenario) is initiated. After goods issue, the physical transport is performed by the TSP. After the product is delivered to the customer, the TSP sets the order to "Delivered" in its system. This status update is once again transferred by the shipment RPA robot.
 
-### logistics (warehousing)
+### Logistics (warehousing)
 
 ![Logistics process](processmodels/strategic_model_logistics.png "Logistics (warhousing) process")
 
@@ -145,7 +145,7 @@ Remark: In addition, event data will be captured by process applications and con
 
 ## Requirements and software architecture (work in progress)
 
-### requirements
+### Requirements
 The following set of requirements has been gathered. It will be the basis for the definition of a software architecture for the BPA Lab (work in progress):
 
 R1: Independent operation of the components
@@ -180,7 +180,7 @@ The components should run stably under various operating conditions and avoid un
 R10: Maintainability and operation
 The system should be easy to maintain.
 
-### software architecture (work in progress)
+### Software architecture (work in progress)
 
 The following C4 diagrams (https://c4model.com/) show the context and containers (not equal to the docker container) of the BPALab software architecture. Aspects are still under discussion and may be changed.
 
@@ -188,7 +188,7 @@ The following C4 diagrams (https://c4model.com/) show the context and containers
 
 ![C4 container diagram](C4architecture/c4-containerDiagram.drawio.png "C4 container diagram")
 
-### architecture questions and decisions (work in progress)
+### Architecture questions and decisions (work in progress)
 
 In this section questions on architecture are raised and decisions recorded.
 
