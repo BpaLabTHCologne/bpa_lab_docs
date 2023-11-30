@@ -1,5 +1,5 @@
 # bpa_lab_docs 
-## about the BPA lab
+## About the BPA lab
 The Business Process Automation Lab (BPA Lab) at the TH Cologne is a small-sized and modular model factory specifically focused on process automation and data-driven process analysis. 
 
 The BPA Lab has two main goals: 
@@ -8,12 +8,12 @@ The BPA Lab has two main goals:
 
 2) Teaching: Individual building blocks of the BPA Lab (like the Fischertechnik warehouse robot) will be used in student projects (Bachelor) as building blocks for self-defined process implementations to teach the aspect of process-oriented application integration in a tangible way. 
 
-## about this repository 
+## About this repository 
 This repository contains documentation about the BPA Lab as a Demonstration Factory. The demonstration scenario is an end-to-end bicycle ordering, manufacturing and shipment process.
 
-Please refer to the bpa_lab_student_docs repository (wiki) for documentation on how to use individual  modules of the BPA Lab (e.g. warehouse robot) inside other process implementation projects and refer to bpa_lab_papyrus_uml for raw data of architecture diagrams created in Papyrus.
+Please refer to the bpa_lab_student_docs repository (wiki) for documentation on how to use individual  modules of the BPA Lab (e.g. warehouse robot) inside other process implementation projects and refer to [bpa_lab_papyrus_uml](https://github.com/BpaLabTHCologne/bpa_lab_papyrus_uml) for raw data of architecture diagrams created in Papyrus.
 
-## about components and its repositories in BpaLabTHCologne organization
+## About components and its repositories in BpaLabTHCologne organization
 In 2023, the first components based on a new architecture were designed. The architecture is still under development, but will cover at least the three levels shown in the simplified overview:
 - Controller: control of hardware components (which are: FT learning factory, FT robots, IOT devices)
 - Process applications communicating via gRPC to Camunda 8 and via MQTT to controllers
@@ -21,13 +21,13 @@ In 2023, the first components based on a new architecture were designed. The arc
 
 A modular design following a Domain Driven Design approach is envisaged to enable independent and parallel work on student projects on the factory. In addition, it should ease the use of building blocks in student projects in the bachelor programme. Therefore, one criteria for splitting job workers and process models is the business domain (order management, manufacturing, shipping, purchasing, logistics ...). 
 
-### simplified overview 
+### Simplified overview 
 
 ![simplified overview](BPALab_Architecture_Incomplete_230906.png "Simplified overview")
 
-### repositories
+### Repositories
 
-The current building blocks of the BPA Lab are distributed across several repositories. Besides the repositories for documentation (this one, bpa_lab_student_docs and bpa_lab_papyrus_uml).
+The current building blocks of the BPA Lab are distributed across several repositories. Besides the repositories for documentation (this one, [bpa_lab_student_docs](https://github.com/BpaLabTHCologne/bpa_lab_student_docs/wiki) and [bpa_lab_papyrus_uml](https://github.com/BpaLabTHCologne/bpa_lab_papyrus_uml)).
 
 ### Controller level: 
 
@@ -43,26 +43,26 @@ bpa_lab_broker: Info on MQQT setup; required for communication of controller and
 
 The process applications do include smaller process models for testing. These are not yet integrated with each other to implement the envisaged end-to-end business processe of a bicycle manufacturing company.
 
-bpa_lab_warehouse_robot: process application (Zeebe/Camunda 8 job worker) communicated via MQQT with bpa_lab_txt_warehouse_control and via gRPC with Camunda 8 (Cloud). Implementation includes simplified business process, databases etc.
+[bpa_lab_warehouse_operations](https://github.com/BpaLabTHCologne/bpa_lab_warehouse_operations): process application (Zeebe/Camunda 8 job worker) communicated via MQQT and via gRPC with Camunda 8 (Cloud). Implementation includes simplified business process, databases etc.
 
-bpa_lab_ft_factory_zeebemqttbridge: process application (Zeebe/Camunda 8 job worker) communicated via MQQT with bpa_lab_ft_factory_control
+[bpa_lab_ft_factory_proto_processapplication](https://github.com/BpaLabTHCologne/bpa_lab_ft_factory_proto_processapplication/tree/main/src): process application (Zeebe/Camunda 8 job worker) communicated via MQQT with [bpa_lab_ft_factory_control](https://github.com/BpaLabTHCologne/bpa_lab_ft_factory_control)
 
 ### Workflow Engine: 
 
 Process models are deployed by the process applications to a workflow engine (Camunda 8 / Zeebe). Camunda 8 is available as a Software as a Service platform, but the BPA Lab is using  a self-managed version (currently running on a server at TH Cologne). 
 We are currently using docker https://docs.camunda.io/docs/self-managed/platform-deployment/docker/, while helm/ kubernetes is recommended for production systems, but may cause issues for developers (in discussion).  
 
-## about depreciated repositories in BpaLabTHCologne organization
+## About depreciated repositories in BpaLabTHCologne organization
 
 This GitHub organization contains a number of (in principle) depreciated repositories containing the results of student projects between 2021 and 2023. Some of these do not follow the new (2023) architecture of the BPA Lab solution. However, all these projects contain valuable parts that are (partly) not integrated into the new solution
 
-BPALab_22_Prototype_IOT: Very initial prototype for integrating a Camunda with an IOT device and a Fischertechnik warehouse robot. It is based on Camunda 7 and no containers (docker) are used. All ideas/aspects are re-used/re-worked in other repositories.
+[BPALab_22_Prototype](https://github.com/BpaLabTHCologne/BPALab_22_Prototype): Very initial prototype for integrating a Camunda with an IOT device and a Fischertechnik warehouse robot. It is based on Camunda 7 and no containers (docker) are used. All ideas/aspects are re-used/re-worked in other repositories.
 
-BPALab_GP22_23: Result of the Camunda (and RPA) part of the Guided Project WS 22/23. Contains valuable parts (overall process design for bicycle manufacturing, single page application for order entry connected to Camunda, RPA demonstrator for shipping). It introduces a docker setup. Solution based on Camunda 7 and without MQQT. Results can be considered as a design document or in some cases as building blocks for the new solution.
+[BPALab_GP22_23](https://github.com/BpaLabTHCologne/BPALab_GP22_23): Result of the Camunda (and RPA) part of the Guided Project WS 22/23. Contains valuable parts (overall process design for bicycle manufacturing, single page application for order entry connected to Camunda, RPA demonstrator for shipping). It introduces a docker setup. Solution based on Camunda 7 and without MQQT. Results can be considered as a design document or in some cases as building blocks for the new solution.
 
-BPALab_22_Prototype_IOT: Results of Guided Project WS 22/23 for IOT solution with integration to Camunda. It is not integrated with Camunda / RPA deliverable and was (partly) used in the master thesis IoT-aware-BP. It contains the most sophisticated IOT device logic.
+[BPALab_22_Prototype_IOT](https://github.com/BpaLabTHCologne/BPALab_22_Prototype_IOT): Results of Guided Project WS 22/23 for IOT solution with integration to Camunda. It is not integrated with Camunda / RPA deliverable and was (partly) used in the master thesis IoT-aware-BP. It contains the most sophisticated IOT device logic.
 
-IoT-aware-BP: Master thesis at BPA Lab, focusing on how to integrate process and IoT data in terms of architecture, process modeling, etc. Implementation based on Camunda 8 concepts will be used for future design. Integration of warehouse robots in business process (manufacturing and shipping) is considered. IOT device setup must be combined with results from BPALab_22_Prototype_IOT (which uses more sophisticated setup).  
+[BPALab_master_thesis_IoT-aware-BP](https://github.com/BpaLabTHCologne/BPALab_master_thesis_IoT-aware-BP): Master thesis at BPA Lab, focusing on how to integrate process and IoT data in terms of architecture, process modeling, etc. Implementation based on Camunda 8 concepts will be used for future design. Integration of warehouse robots in business process (manufacturing and shipping) is considered. IOT device setup must be combined with results from BPALab_22_Prototype_IOT (which uses more sophisticated setup).  
 
 ## Business process of demonstration factory
 
@@ -70,14 +70,14 @@ The following description depicts the to be business process in the BPA Lab for 
 
 The scenario: A bicycle manufacturer offers highly customizable bicycles to consumers 
 
-![process landscape](processmodels/process-landscape.png "Process landscape")
+![process landscape](processmodels/process_landscape_V2.png "Process landscape V2")
 
 The entire end-to-end process is managed by the order management process, which initiates purchasing, manufacturing, and shipping processes as needed. 
-Purchasing, manufacturing, and shipping use logistics processes.
+Purchasing and manufacturing use the Fischertechnik Industrie 4.0 Factory to post goods receipt of components and for the actual manufacturing steps. In addition, order management and shipping use the distribution warehouse (single Fischertechnik robot) to post goods receipts and goods issues for finished goods.
 
 The following diagrams provide strategic models for each process. The process models do not include technical aspects and only illustrate the happy path.
 
-### order management
+### Order management and production control
 
 ![order management process](processmodels/strategic_model_ordermgmt.png "Order management process")
 
@@ -85,34 +85,32 @@ This process manages the fulfillment of customer orders.
 
 The process starts when a customer order is entered into a web portal (external web application), which triggers the end-to-end order management process. During the process, the availability of the ordered bike is checked. If a bike with the exact specifications is in stock, the shipping process is initiated. After shipping, an invoice is sent to the customer and the process is complete.
 
-In the standard scenario, the ordered bicycle is not in stock. A production order is created, specifying the required components based on a bill of materials. If any component is missing, the purchasing process is initiated. Otherwise, the manufacturing process is initiated immediately. Once the product is manufactured, shipping is initiated.
+In the standard scenario, the ordered bicycle is not in stock. A production order is created in the production control process. The production order specifies the required components based on a bill of materials. If any component is missing, the purchasing process is initiated. Otherwise, the manufacturing process is initiated immediately. Once the product is manufactured, shipping is initiated.
 
 
-### purchasing
+### Purchasing
 
 ![purchasing process](processmodels/strategic_model_purchasing.png "Purchasing process")
 
 This process manages the purchase of required components. The process starts when a component is needed. 
 
-First, a purchase order is created that specifies parameters such as vendor, material, and quantity. The system then sends the purchase order to the vendor. When the goods are received, an incoming inspection is performed. If a quality problem is detected, the materials are rejected and a new purchase order is created. Otherwise, the logistics process (putaway scenario) is triggered.  
+First, a purchase order is created that specifies parameters such as vendor, material, and quantity. The system then sends the purchase order to the vendor. When the goods are received, an incoming inspection is performed. If a quality problem is detected, the materials are rejected and a new purchase order is created. Otherwise, the putaway scenario in the manufacturing (FT factory) is initiated.  
 
 The process then marks the material requirement as fulfilled.
 
-### manufacturing
+### Manufacturing (Rework needed)
 
 ![manufacturing process](processmodels/strategic_model_manufacturing.png "Manufacturing process")
 
-This process manages the manufacturing of a finished good (product). The process is initiated when materials are available.
+To be added: Process of goods receipt of components in the high-bay warehouse of the manufacturing plant.
 
-First, a production planning activity is performed, which creates a production order. This production order is checked by the production planning staff. If the production order is not okay, the production planning has to be repeated. Otherwise, the components are transported to the factory. After that, the first step in the factory, which puts the material into the high-bay warehouse inside the factory, is performed by initiating the FT factory controller. 
+This process manages two scenarios: 
+- puts the components  into the high-bay warehouse inside the factory, by initiating the FT factory controller.
+- the manufacturing of a finished good (product) by once again initiating  the FT Factory Controller. 
 
-Then the production order is released and the actual manufacturing process is executed by once again initiating  the FT Factory Controller.  
+The process ends when the finished goods are ready to be transported in the finished goods warehouse (robot).
 
-The finished goods are then transported to the warehouse (Fishertechnik robot) and put away.
-
-The process ends when the product is stored in the warehouse.
-
-### shipment
+### Shipment
 
 ![shipment process](processmodels/strategic_model_shipment.png "Manufacturing process")
 
@@ -120,11 +118,11 @@ This process manages the shipment of finished goods to the customer. The process
 
 First, a shipment object is created. This shipment is tendered (sent) to a Transportation Service Provider (TSP), which either accepts or rejects the shipment. This status is not entered manually but by an RPA robot (shipment robot). If a shipment is rejected, an alternative TSP is selected. After acceptance, the logistics process (picking scenario) is initiated. After goods issue, the physical transport is performed by the TSP. After the product is delivered to the customer, the TSP sets the order to "Delivered" in its system. This status update is once again transferred by the shipment RPA robot.
 
-### logistics (warehousing)
+### Distribution warehouse
 
 ![Logistics process](processmodels/strategic_model_logistics.png "Logistics (warhousing) process")
 
-This process manages the flow of goods in a warehouse. This is represented by the Fischertechnik warehouse robot.
+This process manages the flow of finished goods in a distribution warehouse. This is represented by the Fischertechnik warehouse robot.
 The process begins when a transfer order for the warehouse is received by another business. This could be an instruction to move products in or out of the  warehouse.
 
 There are two scenarios:
@@ -137,9 +135,15 @@ If the transfer order is for "picking (exstore)," the process involves checking 
 
 The process then marks the transfer order as completed, indicating that the requested action (storage or retrieval) has been successfully executed.
 
+## Domain model (data perspective) 
+The following domain model (DRAFT) depicts major master data and transactional data elements throughout the system (domain). The working assumption is that these data elements are stored in a database (open question: MongoDB or MySQL). 
+Remark: In addition, event data will be captured by process applications and controllers. This event data will be stored in MongoDB as a NoSQL database.   
+
+![data model](BpaLab_domain_model.pdf "Data model")
+
 ## Requirements and software architecture (work in progress)
 
-### requirements
+### Requirements
 The following set of requirements has been gathered. It will be the basis for the definition of a software architecture for the BPA Lab (work in progress):
 
 R1: Independent operation of the components
@@ -174,7 +178,7 @@ The components should run stably under various operating conditions and avoid un
 R10: Maintainability and operation
 The system should be easy to maintain.
 
-### software architecture (work in progress)
+### Software architecture (work in progress)
 
 The following C4 diagrams (https://c4model.com/) show the context and containers (not equal to the docker container) of the BPALab software architecture. Aspects are still under discussion and may be changed.
 
@@ -182,7 +186,7 @@ The following C4 diagrams (https://c4model.com/) show the context and containers
 
 ![C4 container diagram](C4architecture/c4-containerDiagram.drawio.png "C4 container diagram")
 
-### architecture questions and decisions (work in progress)
+### Architecture questions and decisions (work in progress)
 
 In this section questions on architecture are raised and decisions recorded.
 
