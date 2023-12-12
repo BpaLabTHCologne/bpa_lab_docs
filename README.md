@@ -70,7 +70,7 @@ The following description depicts the to be business process in the BPA Lab for 
 
 The scenario: A bicycle manufacturer offers highly customizable bicycles to consumers 
 
-![process landscape](processmodels/process_landscape_V2.png "Process landscape V2")
+![process landscape](processmodels/process_landscape.png "Process landscape")
 
 The entire end-to-end process is managed by the order management process, which initiates purchasing, manufacturing, and shipping processes as needed. 
 Purchasing and manufacturing use the Fischertechnik Industrie 4.0 Factory to post goods receipt of components and for the actual manufacturing steps. In addition, order management and shipping use the distribution warehouse (single Fischertechnik robot) to post goods receipts and goods issues for finished goods.
@@ -190,18 +190,23 @@ The following C4 diagrams (https://c4model.com/) show the context and containers
 
 In this section questions on architecture are raised and decisions recorded.
 
-Decision 1: MQQT broker to decouple process applications and controller (Done)
+Decision 1: MQQT broker for communication between process applications and controller (decision done)
+Justification: decoupling, protocol common in IOT field
 
-Decision 2: In BPMN we use Message Send Tasks and  Message Receive Task to model inter-process communication (Done)
+Decision 2: Model inter-process communication in BPMN by Message Send Tasks and Message Receive Task (decision done)
+Justification: Tasks offer use of boundary events e.g. to handle errors triggered by job workers
 
-Decision 3: MQQT Broker to implement messages between processes and process application - see manufacturing prototype (Done)
+Decision 3: MQQT Broker to implement messages between processes and process application - see manufacturing prototype (decision done)
+Justification: to have simple solution and be aligned with process application - process control communication
 
-Decision 4: Using the self-managed version of Camunda 8 and Docker compose Camunda 8 CORE  (Done)
+Decision 4: Using the self-managed version of Camunda 8 and Docker compose Camunda 8 core  (decision done)
+Justification: avoid interferences between members during development phase; development environment identical to production environment; note: performance with docker and number of containers to be verified
 
-Decision 5: Use JobWorker to send emails (template by order management team) (In progress)
+Decision 5: Use JobWorker to send emails (template by order management team) (in alignment)
+Justifications: issues with SendGrid Connector; existing solution in project
 
-Decision 6: Use JobWorker for database transatcion and mysql (template by order management team) (In progress)
-
+Decision 6: Use JobWorker for database transaction and mysql database in docker container (template by order management team) (in alignment)
+Justifications: existing solution in project
 
 ## deployment diagram
 UML deployment diagram
