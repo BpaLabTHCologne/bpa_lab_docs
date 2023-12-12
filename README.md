@@ -200,6 +200,9 @@ Decision 4: Using the self-managed version of Camunda 8 and Docker compose Camun
 
 Decision 5: Use JobWorker to send emails (template by order management team) (In progress)
 
+Decision 6: Use JobWorker for database transatcion and mysql (template by order management team) (In progress)
+
+
 ## deployment diagram
 UML deployment diagram
 
