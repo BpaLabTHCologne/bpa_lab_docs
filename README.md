@@ -192,16 +192,13 @@ In this section questions on architecture are raised and decisions recorded.
 
 Decision 1: MQQT broker to decouple process applications and controller (Done)
 
-Decision 2: Using the self-managed version of Camunda 8 (Done)
+Decision 2: In BPMN we use Message Send Tasks and  Message Receive Task to model inter-process communication (Done)
 
-Decision 3: Docker or helm/kubernetes installation of Camunda 8 (in progress)
-Working assumption: docker
+Decision 3: MQQT Broker to implement messages between processes and process application - see manufacturing prototype (Done)
 
-Decision 4: Communication between processes (in progress)
-Processes/process applications (order management, manufacturing, shipment, ...) need to communicate to each other
-Alternatives: call activities, sending/receiving events, task
-Working assumption: via message objects (modeling as BPMN sending/receiving events) for flexibility
+Decision 4: Using the self-managed version of Camunda 8 and Docker compose Camunda 8 CORE  (Done)
 
+Decision 5: Use JobWorker to send emails (template by order management team) (In progress)
 
 ## deployment diagram
 UML deployment diagram
