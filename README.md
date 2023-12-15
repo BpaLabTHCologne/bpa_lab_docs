@@ -190,13 +190,13 @@ The following C4 diagrams (https://c4model.com/) show the context and containers
 
 In this section questions on architecture are raised and decisions recorded.
 
-Decision 1: MQQT broker for communication between process applications and controller (decision done)
+Decision 1: MQTT broker for communication between process applications and controller (decision done)
 Justification: decoupling, protocol common in IOT field
 
 Decision 2: Model inter-process communication in BPMN by Message Send Tasks and Message Receive Task (decision done)
 Justification: Tasks offer use of boundary events e.g. to handle errors triggered by job workers
 
-Decision 3: MQQT Broker to implement messages between processes and process application - see manufacturing prototype (decision done)
+Decision 3: (TO CLARIFY) messages between processes and process application - see manufacturing prototype (decision done)
 Justification: to have simple solution and be aligned with process application - process control communication
 
 Decision 4: Using the self-managed version of Camunda 8 and Docker compose Camunda 8 core  (decision done)
