@@ -1,6 +1,6 @@
 # bpa_lab_docs 
 ## About the BPA lab
-The Business Process Automation Lab (BPA Lab) at the TH Cologne is a small-sized and modular model factory specifically focused on process automation and data-driven process analysis. 
+The Business Process Automation Lab (BPA Lab) at the TH Cologne is a small-sized and modular model factory  focused on process automation and data-driven process analysis. 
 
 The BPA Lab has two main goals: 
 
