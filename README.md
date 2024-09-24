@@ -31,7 +31,7 @@ Therefore, one of the criteria for splitting job workers and process models is t
 
 ### Simplified overview 
 
-![simplified overview](BPALab_Architecture_Incomplete_230906.png "Simplified overview")
+![simplified overview](Business Process Automation Lab_Architektur_240924.png "Simplified overview")
 
 ### Implementation of the demonstration factory
 
