@@ -36,7 +36,7 @@ Therefore, one of the criteria for splitting job workers and process models is t
 ### Implementation of the demonstration factory
 
 The latest version of the BPALab as a Demonstration Factory implementation is available in the following repository: 
-([bpa_lab_demonstration_factory](https://github.com/BpaLabTHCologne/bpa_lab_demonstration_factory)
+([bpa_lab_demonstration_factory](https://github.com/BpaLabTHCologne/bpa_lab_demonstration_factory))
 
 This implementation uses docker.  
 
