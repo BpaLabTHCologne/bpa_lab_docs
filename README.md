@@ -14,17 +14,16 @@ The BPA Lab has two main goals:
 This repository contains documentation about the implementation of the BPA Lab as a Demonstration Factory. The demonstration scenario is an end-to-end bicycle ordering, manufacturing and shipment process.
 This process has been implemented with Camunda 8 (BPMS) as the central BPMS and multiple other software components.
 
-Remark: Please refer to the bpa_lab_student_docs repository (wiki) for documentation on how to use individual  modules of the BPA Lab (e.g. warehouse robot) inside other process implementation projects ([bpa_lab_student_docs](https://github.com/BpaLabTHCologne/bpa_lab_student_docs/wiki).
+Remark: Please refer to the bpa_lab_student_docs repository (wiki) for documentation on how to use individual  modules of the BPA Lab (e.g. warehouse robot) inside other process implementation projects ([bpa_lab_student_docs](https://github.com/BpaLabTHCologne/bpa_lab_student_docs/wiki)).
 
 The following sections provide:
 - a high level overview of the solution
 - a description of the business scenario implemented in the BPA Lab
 - a description of the software architecture
-- description of depreciated repositories in this organization
 
 ## About the solution 
 The architecture and implementation are still under development. The architecture covers the following three levels (see simplified overview):
-- Controller: control of hardware components (which are: FT learning factory, FT robots, IOT devices)
+- Controller: control of hardware components (which are: FT I4.0 factory, FT robots, IOT devices)
 - Process applications (job workers) communicating via gRPC to Camunda 8 and via MQTT to controllers
 - (BPMS) Workflow engine: Camunda 8 (self-managed) platform executing various processes and decision models of the process applications
 
