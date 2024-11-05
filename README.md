@@ -2,13 +2,13 @@
 ## About the BPA lab
 The Business Process Automation Lab (BPA Lab) at the TH Cologne is a small-sized and modular model factory focused on business process automation and analytics. 
 
-![BPALab_concept](BPALab_Concept_engl.png "BPA Lab concept")
-
 The BPA Lab has two main goals: 
 
 1) Demonstration: Demonstrate concepts and technologies for business process automation and analytics. To this end, various software components such as Business Process Management Systems (BPMS) and Robotic Process Automation (RPA) are combined with hardware components like a Fischertechnik I4.0 factory, a Fischertechnik warehouse robot and IoT devices to simulate the production and logistics processes of a bicycle manufacturing company. In addition, technologies such as process mining will be used to demonstrate how business processes can be analysed and improved through a data-driven approach. 
 
 2) Teaching: Individual building blocks of the BPA Lab (like the Fischertechnik warehouse robot) will be used in student projects (Bachelor) as building blocks for self-defined process implementations to teach the aspect of process-oriented application integration in a tangible way. 
+
+![BPALab_concept](BPALab_Concept_engl.png "BPA Lab concept")
 
 ## About this repository 
 This repository contains documentation about the implementation of the BPA Lab as a Demonstration Factory. The demonstration scenario is an end-to-end bicycle ordering, manufacturing and shipment process.
