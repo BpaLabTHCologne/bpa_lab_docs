@@ -120,7 +120,7 @@ Work in Progress
 ## Requirements and software architecture (work in progress)
 
 ### Requirements
-The following set of requirements has been gathered. It will be the basis for the definition of a software architecture for the BPA Lab (work in progress):
+The following set of requirements has been gathered at the beginning of the project. It serves as the basis for the definition of a software architecture of the BPA Lab (work in progress):
 
 R1: Independent operation of the components
 The individual components of the system should be able to run independently of each other.
@@ -164,7 +164,7 @@ The following C4 diagrams (https://c4model.com/) show the context and containers
 
 ### Architecture questions and decisions (work in progress)
 
-In this section questions on architecture are raised and decisions recorded.
+In this section few questions on architecture raised during a later stage of the BPALab project and the respective decisions have been recorded (not complete)
 
 Decision 1: MQTT broker for communication between process applications and controller (decision done)
 Justification: decoupling, protocol common in IOT field
@@ -184,7 +184,3 @@ Justifications: issues with SendGrid Connector; existing solution in project
 Decision 6: Use JobWorker for database transaction and mysql database in docker container  (decision done)
 Justifications: existing solution in project
 
-## deployment diagram
-UML deployment diagram
-
-![deployment](BPALABDeploymentDiagram.png "Deployment")
