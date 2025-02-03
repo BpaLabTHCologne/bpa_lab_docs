@@ -8,7 +8,7 @@ The BPA Lab has two main goals:
 
 2) Teaching: Individual building blocks of the BPA Lab (like the Fischertechnik warehouse robot) will be used in student projects (Bachelor) as building blocks for self-defined process implementations to teach the aspect of process-oriented application integration in a tangible way. 
 
-![BPALab_concept](BPALab_Concept_engl.png "BPA Lab concept")
+![BPALab_concept](Updated_graphics/Conceptional_Architecture.png "BPA Lab concept")
 
 ## About this repository 
 This repository contains documentation about the implementation of the BPA Lab as a Demonstration Factory. The demonstration scenario is an end-to-end bicycle ordering, manufacturing and shipment process.
@@ -56,7 +56,7 @@ The following diagrams provide strategic process models for each process. The pr
 
 ### Order management and production control
 
-![order management process](processmodels/strategic_model_ordermgmt.png "Order management process")
+![order_management](Updated_graphics/order-management-process.png "Order management")
 
 This process manages the fulfillment of customer orders.
 
@@ -66,7 +66,7 @@ In the standard scenario, the ordered bicycle is not in stock. A production orde
 
 ### Purchasing
 
-![purchasing process](processmodels/strategic_model_purchasing.png "Purchasing process")
+![purchasing](Updated_graphics/purchasing_process.png "Purchasing")
 
 This process manages the purchase of required components. The process starts when a component is needed. 
 
@@ -74,9 +74,9 @@ First, a purchase order is created that specifies parameters such as vendor, mat
 
 The process then marks the material requirement as fulfilled.
 
-### Manufacturing (Rework needed)
+### Manufacturing
 
-![manufacturing process](processmodels/strategic_model_manufacturing.png "Manufacturing process")
+![manufacturing process](Updated_graphics/ManufacturingProcess.png "Manufacturing process")
 
 To be added: Process of goods receipt of components in the high-bay warehouse of the manufacturing plant.
 
@@ -88,15 +88,15 @@ The process ends when the finished goods are ready to be transported in the fini
 
 ### Shipment
 
-![shipment process](processmodels/strategic_model_shipment.png "Manufacturing process")
+![shipment process](Updated_graphics/shipment-process.png "Shipment process")
 
 This process manages the shipment of finished goods to the customer. The process begins when a product is in stock and ready to be shipped to the customer.
 
 First, a shipment object is created. This shipment is tendered (sent) to a Transportation Service Provider (TSP), which either accepts or rejects the shipment. This status is not entered manually but by an RPA robot (shipment robot). If a shipment is rejected, an alternative TSP is selected. After acceptance, the logistics process (picking scenario) is initiated. After goods issue, the physical transport is performed by the TSP. After the product is delivered to the customer, the TSP sets the order to "Delivered" in its system. This status update is once again transferred by the shipment RPA robot.
 
-### Distribution warehouse
+### Logistics
 
-![Logistics process](processmodels/strategic_model_logistics.png "Logistics (warhousing) process")
+![Logistics process](Updated_graphics/warehouse-operations-process.png "Logistics process")
 
 This process manages the flow of finished goods in a distribution warehouse. This is represented by the Fischertechnik warehouse robot.
 The process begins when a transfer order for the warehouse is received by another business. This could be an instruction to move products in or out of the  warehouse.
@@ -115,12 +115,11 @@ The process then marks the transfer order as completed, indicating that the requ
 
 The following graphic shows the data sources of the BPA Lab system and their data.
 
+![data_overview](Updated_graphics/data_overview.png "Data overview")
 
+The next diagram shows the concrete data model of MySQL with all entities and attributes of the current implementation.
 
-The following domain model (DRAFT) depicts major master data and transactional data elements throughout the system (domain). The working assumption is that these data elements are stored in a database (open question: MongoDB or MySQL). 
-Remark: In addition, event data will be captured by process applications and controllers. This event data will be stored in MongoDB as a NoSQL database.   
-
-Work in Progress
+![mysql_data_model](Updated_graphics/mysql_data_model.png "MySQL data model")
 
 ## Requirements and software architecture (work in progress)
 
