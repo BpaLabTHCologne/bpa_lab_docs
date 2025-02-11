@@ -160,7 +160,7 @@ The following C4 diagrams (https://c4model.com/) show the context and containers
 
 ![C4 context diagram](C4architecture/c4-contextDiagram.drawio.png "C4 context diagram")
 
-![C4 container diagram](C4architecture/C4_System_Architecture.png "C4 container diagram")
+![C4 container diagram](Updated_graphics/C4_System_Architecture.png "C4 container diagram")
 
 ### Architecture questions and decisions (work in progress)
 
