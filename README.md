@@ -70,21 +70,17 @@ In the standard scenario, the ordered bicycle is not in stock. A production orde
 
 This process manages the purchase of required components. The process starts when a component is needed. 
 
-First, a purchase order is created that specifies parameters such as vendor, material, and quantity. The system then sends the purchase order to the vendor. When the goods are received, an incoming inspection is performed. If a quality problem is detected, the materials are rejected and a new purchase order is created. Otherwise, the putaway scenario in the manufacturing (FT factory) is initiated.  
+First, a purchase order is created that specifies parameters such as vendor, material, and quantity. The system then sends the purchase order to the vendor and waits for confirmation from the vendor. The materials are then stored and the stocks are updated.  
 
-The process then marks the material requirement as fulfilled.
+The process then marks the material requirement as fulfilled and the purchasing order as completed.
 
 ### Manufacturing
 
 ![manufacturing process](Updated_graphics/ManufacturingProcess.png "Manufacturing process")
 
-To be added: Process of goods receipt of components in the high-bay warehouse of the manufacturing plant.
+The process manages the physical production simulation of the FT factory. The process is started after a production order has been created in the production control process and sufficient materials are available to manufacture the product.
 
-This process manages two scenarios: 
-- puts the components  into the high-bay warehouse inside the factory, by initiating the FT factory controller.
-- the manufacturing of a finished good (product) by once again initiating  the FT Factory Controller. 
-
-The process ends when the finished goods are ready to be transported in the finished goods warehouse (robot).
+An order must be placed that leads to the production of a new bicycle using the specified material. Before this, however, a check is made to see whether a physical workpiece is already available in the Ft factory's warehouse. If not, a physical workpiece must first be transferred to the FT factory so that the control program can store and recognize it. Once the bicycle has been produced from the material (workpiece), the process is complete.
 
 ### Shipment
 
@@ -92,20 +88,20 @@ The process ends when the finished goods are ready to be transported in the fini
 
 This process manages the shipment of finished goods to the customer. The process begins when a product is in stock and ready to be shipped to the customer.
 
-First, a shipment object is created. This shipment is tendered (sent) to a Transportation Service Provider (TSP), which either accepts or rejects the shipment. This status is not entered manually but by an RPA robot (shipment robot). If a shipment is rejected, an alternative TSP is selected. After acceptance, the logistics process (picking scenario) is initiated. After goods issue, the physical transport is performed by the TSP. After the product is delivered to the customer, the TSP sets the order to "Delivered" in its system. This status update is once again transferred by the shipment RPA robot.
+First, the shipping data is checked. The distance and duration of the shipment from the warehouse to the delivery address is then measured. The Openrouteservice API is used for this. The logistics process is then started to receive the customer order to be shipped from the warehouse. A message is then sent to the customer that the order is now being dispatched. The process, and therefore also an end-to-end process instance, is completed when the order is handed over to the customer.
 
 ### Logistics
 
 ![Logistics process](Updated_graphics/warehouse-operations-process.png "Logistics process")
 
 This process manages the flow of finished goods in a distribution warehouse. This is represented by the Fischertechnik warehouse robot.
-The process begins when a transfer order for the warehouse is received by another business. This could be an instruction to move products in or out of the  warehouse.
+The process begins when a transfer order for the warehouse is received by another business. This could be an instruction to move products in or out of the warehouse.
 
 There are two scenarios:
 "Put-away (store)": This means a product needs to be stored in a specific storage location.
 "Picking (exstore)": This indicates that a product need to be retrieved from a specific storage location.
 
-If the transfer order is for "put-away (store)," the system checks if the specified storage location is actually available in the warehouse to store the products. This check is done by the warehouse staff. If the storage location is available, the process stores the product in the warehouse by calling the warehouse robot control module.  If the storage location is not available, the warehouse staff needs to specify an alternative storage location. After storing the product, the system updates the information about the warehouse's occupancy status in the inventory database.
+If the transfer order is for "put-away (store)," the system checks if the specified storage location is actually available in the warehouse to store the products. This check is done by the warehouse staff. If the storage location is available, the process stores the product in the warehouse by calling the warehouse robot control module. If the storage location is not available, the warehouse staff needs to specify an alternative storage location. After storing the product, the system updates the information about the warehouse's occupancy status in the inventory database.
 
 If the transfer order is for "picking (exstore)," the process involves checking the actual availability by the warehouse staff. If product is available the requested product are picked from the warehouse by calling the warehouse robot control module. After retrieving the product, the system updates the occupancy status of the storage location in the inventory database. 
 
