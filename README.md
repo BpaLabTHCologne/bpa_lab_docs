@@ -47,7 +47,7 @@ The following description depicts the business process in the BPA Lab for Demons
 
 The scenario: A bicycle manufacturer offers highly customizable bicycles to consumers 
 
-![process landscape](processmodels/process_landscape.png "Process landscape")
+![process landscape](Updated_graphics/process_landscape.png "Process landscape")
 
 The entire end-to-end process is managed by the order management process, which initiates purchasing, manufacturing, and shipping processes as needed. 
 Purchasing and manufacturing use the Fischertechnik Industrie 4.0 Factory to post goods receipt of components and for the actual manufacturing steps. In addition, order management and shipping use the distribution warehouse (single Fischertechnik robot) to post goods receipts and goods issues for finished goods.
