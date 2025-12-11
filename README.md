@@ -12,23 +12,22 @@ The BPA Lab has two main goals:
 
 ## About this repository 
 This repository contains documentation about the implementation of the BPA Lab as a Demonstration Factory. The demonstration scenario is an end-to-end bicycle ordering, manufacturing and shipment process.
-This process has been implemented with Camunda 8 (BPMS) as the central BPMS and multiple other software components.
+This process has been implemented with Camunda 8 (BPMS) as the central BPMS and multiple other software components. This implementation is available at ([bpa_lab_demonstration_factory](https://github.com/BpaLabTHCologne/bpa_lab_demonstration_factory))
 
-Remark: Please refer to the bpa_lab_student_docs repository (wiki) for documentation on how to use individual  modules of the BPA Lab (e.g. warehouse robot) inside other process implementation projects ([bpa_lab_student_docs](https://github.com/BpaLabTHCologne/bpa_lab_student_docs/wiki)).
+Please refer to the bpa_lab_student_docs repository (wiki) for documentation on how to use individual components of the BPA Lab (e.g. warehouse robot) inside self-developed process implementation projects ([bpa_lab_student_docs](https://github.com/BpaLabTHCologne/bpa_lab_student_docs/wiki)).
 
 The following sections provide:
 - a high level overview of the solution
-- a description of the business scenario implemented in the BPA Lab
-- a description of the software architecture
+- a description of the business scenario (business processes) implemented in the BPA Lab
+- a description of the software architecture and design decisions
 
 ## About the solution 
-The architecture and implementation are still under development. The architecture covers the following three levels (see simplified overview):
-- Controller: control of hardware components (which are: FT I4.0 factory, FT robots, IOT devices)
-- Process applications (job workers) communicating via gRPC to Camunda 8 and via MQTT to controllers
-- (BPMS) Workflow engine: Camunda 8 (self-managed) platform executing various processes and decision models of the process applications
+The architecture and implementation are  under continous development. The architecture covers the following three levels (see simplified overview):
+- Controller: control of hardware components (which are: FT I4.0 factory, FT robots, IOT devices) mostly developed in Python
+- Process applications (job workers) communicating via gRPC to Camunda 8 and via MQTT to controllers mostly developed in Java
+- (BPMS) Workflow engine: Camunda 8 (self-managed) platform executing various processes and decision models (BPMN and DMN) of the process applications
 
-A modular design following a Domain Driven Design approach is envisaged to allow independent and parallel work on student projects in the factory. It should also facilitate the use of building blocks in student projects. 
-Therefore, one of the criteria for splitting job workers and process models is the business domain (order management, manufacturing, shipping, purchasing, logistics...). 
+A modular design following a domain driven design approach is envisaged to allow independent and parallel work of student (developers) in the factory. It should also allow to use components in student projects to develop own process applications. Therefore, the primary criteria for splitting job workers and process models is the business domain (order management, manufacturing, shipping, purchasing, logistics...). 
 
 ### Simplified overview 
 
@@ -43,16 +42,16 @@ This implementation uses docker.
 
 ## Business scenario of demonstration factory (strategic description)
 
-The following description depicts the business process in the BPA Lab for Demonstration on a strategic (non-technical) level. It is - work in progress - and requires improvements (harmonization of terms, more details, ...)
+The following description depicts the business process in the BPA Lab for Demonstration on a high level (strategic) level. It is - work in progress - and requires improvements (harmonization of terms, more details, ...)
 
 The scenario: A bicycle manufacturer offers highly customizable bicycles to consumers 
 
 ![process landscape](Updated_graphics/process_landscape.png "Process landscape")
 
 The entire end-to-end process is managed by the order management process, which initiates purchasing, manufacturing, and shipping processes as needed. 
-Purchasing and manufacturing use the Fischertechnik Industrie 4.0 Factory to post goods receipt of components and for the actual manufacturing steps. In addition, order management and shipping use the distribution warehouse (single Fischertechnik robot) to post goods receipts and goods issues for finished goods.
+The manufacturing processes use the Fischertechnik Industrie 4.0 Factory to post goods receipt of components and for the actual manufacturing steps. In addition, order management and shipping use the distribution warehouse (seperate Fischertechnik robot) to post goods receipts and goods issues for finished goods.
 
-The following diagrams provide strategic process models for each process. The process models do not include any technical aspects and only illustrate the happy path.
+The following diagrams describe each process. The process models do not include any technical aspects and only represent the happy path of processes.
 
 ### Order management and production control
 
@@ -60,9 +59,9 @@ The following diagrams provide strategic process models for each process. The pr
 
 This process manages the fulfillment of customer orders.
 
-The process starts when a customer order is entered into a web portal (external web application), which triggers the end-to-end order management process. During the process, the availability of the ordered bike is checked. If a bike with the exact specifications is in stock, the shipping process is initiated. After shipping, an invoice is sent to the customer and the process is complete.
+The process starts when a customer order is entered into a form, which is prefilled with products data (bike models) from the database. During the process, the availability of the ordered products is checked. If all ordered products are on stock, the shipping process is initiated. After shipping the process is complete.
 
-In the standard scenario, the ordered bicycle is not in stock. A production order is created in the production control process. The production order specifies the required components based on a bill of materials. If any component is missing, the purchasing process is initiated. Otherwise, the manufacturing process is initiated immediately. Once the product is manufactured, shipping is initiated.
+In another  scenario, one or multiple of the ordered bicycles are not in stock. For these products production orders are created (one per product) by triggereing the production control process. The production order specifies the required component(s). If componenta are not on stock, a purchasing process is initiated. Otherwise, the manufacturing process is initiated immediately. Once the product is manufactured, shipping is initiated.
 
 ### Purchasing
 
@@ -78,7 +77,7 @@ The process then marks the material requirement as fulfilled and the purchasing 
 
 ![manufacturing process](Updated_graphics/ManufacturingProcess.png "Manufacturing process")
 
-The process manages the physical production simulation of the FT factory. The process is started after a production order has been created in the production control process and sufficient materials are available to manufacture the product.
+The process manages the physical manufacturing simulation of the FT factory. The process is started after a production order has been created in the production control process and sufficient materials are available to manufacture the product.
 
 An order must be placed that leads to the production of a new bicycle using the specified material. Before this, however, a check is made to see whether a physical workpiece is already available in the Ft factory's warehouse. If not, a physical workpiece must first be transferred to the FT factory so that the control program can store and recognize it. Once the bicycle has been produced from the material (workpiece), the process is complete.
 
