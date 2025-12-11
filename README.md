@@ -53,9 +53,9 @@ The manufacturing processes use the Fischertechnik Industrie 4.0 Factory to post
 
 The following diagrams describe each process. The process models do not include any technical aspects and only represent the happy path of processes.
 
-### Order management and production control
+### Order management
 
-![order_management](Updated_graphics/order-management-process.png "Order management")
+![order_management](https://github.com/BpaLabTHCologne/bpa_lab_demonstration_factory/blob/multiitemorder/bpa_lab_ordermanagement_process/bpmn/BPALabBikeFactoryOrderManagement.png)
 
 This process manages the fulfillment of customer orders.
 
@@ -63,48 +63,41 @@ The process starts when a customer order is entered into a form, which is prefil
 
 In another  scenario, one or multiple of the ordered bicycles are not in stock. For these products production orders are created (one per product) by triggereing the production control process. The production order specifies the required component(s). If componenta are not on stock, a purchasing process is initiated. Otherwise, the manufacturing process is initiated immediately. Once the product is manufactured, shipping is initiated.
 
+### Production control
+This process manages the creation and management of one production order for one product. The demand for components is determined and a purchasing process is initiated, if required.
+Afterwards the actual manufacturing process is triggered.
+
+![production control](https://github.com/BpaLabTHCologne/bpa_lab_demonstration_factory/blob/multiitemorder/bpa_lab_productioncontrol_process/bpmn/BPALabBikeFactoryProductionControl.png)
+
 ### Purchasing
 
-![purchasing](Updated_graphics/purchasing_process.png "Purchasing")
+![purchasing](https://github.com/BpaLabTHCologne/bpa_lab_demonstration_factory/blob/multiitemorder/bpa_lab_purchasing_process/bpmn/bpa_lab_purchase_process.png)
 
-This process manages the purchase of required components. The process starts when a component is needed. 
+This process manages the purchase of required components. The process starts when a component is needed and creates a purchas order.
 
-First, a purchase order is created that specifies parameters such as vendor, material, and quantity. The system then sends the purchase order to the vendor and waits for confirmation from the vendor. The materials are then stored and the stocks are updated.  
-
-The process then marks the material requirement as fulfilled and the purchasing order as completed.
+This can be adjusted by the user, e.g. by selecting a vendor. The materials are then stored and the stocks are updated.  After confirmation by the user (or time exceeded) the stock level in inventory database is increased.
 
 ### Manufacturing
 
-![manufacturing process](Updated_graphics/ManufacturingProcess.png "Manufacturing process")
+![manufacturing process](https://github.com/BpaLabTHCologne/bpa_lab_demonstration_factory/blob/multiitemorder/bpa_lab_manufacturing_process/bpmn/BPALabBikeFactoryManufacture.png)
 
-The process manages the physical manufacturing simulation of the FT factory. The process is started after a production order has been created in the production control process and sufficient materials are available to manufacture the product.
+The process manages the physical manufacturing simulation of the FT factory for one item of one product type. The process is started after a production order has been created in the production control process and sufficient componnts are available to manufacture the product.
 
 An order must be placed that leads to the production of a new bicycle using the specified material. Before this, however, a check is made to see whether a physical workpiece is already available in the Ft factory's warehouse. If not, a physical workpiece must first be transferred to the FT factory so that the control program can store and recognize it. Once the bicycle has been produced from the material (workpiece), the process is complete.
 
 ### Shipment
 
-![shipment process](Updated_graphics/shipment-process.png "Shipment process")
+![shipment process](https://github.com/BpaLabTHCologne/bpa_lab_demonstration_factory/blob/multiitemorder/bpa_lab_shipment_process/bpmn/bpa_lab_shipment_process.png)
 
-This process manages the shipment of finished goods to the customer. The process begins when a product is in stock and ready to be shipped to the customer.
+This process manages the shipment of finished goods to the customer. The process is triggered only if product is on stock and ready to be shipped to the customer.
 
 First, the shipping data is checked. The distance and duration of the shipment from the warehouse to the delivery address is then measured. The Openrouteservice API is used for this. The logistics process is then started to receive the customer order to be shipped from the warehouse. A message is then sent to the customer that the order is now being dispatched. The process, and therefore also an end-to-end process instance, is completed when the order is handed over to the customer.
 
-### Logistics
-
-![Logistics process](Updated_graphics/warehouse-operations-process.png "Logistics process")
+### Warehouse Operations Process
 
 This process manages the flow of finished goods in a distribution warehouse. This is represented by the Fischertechnik warehouse robot.
 The process begins when a transfer order for the warehouse is received by another business. This could be an instruction to move products in or out of the warehouse.
 
-There are two scenarios:
-"Put-away (store)": This means a product needs to be stored in a specific storage location.
-"Picking (exstore)": This indicates that a product need to be retrieved from a specific storage location.
-
-If the transfer order is for "put-away (store)," the system checks if the specified storage location is actually available in the warehouse to store the products. This check is done by the warehouse staff. If the storage location is available, the process stores the product in the warehouse by calling the warehouse robot control module. If the storage location is not available, the warehouse staff needs to specify an alternative storage location. After storing the product, the system updates the information about the warehouse's occupancy status in the inventory database.
-
-If the transfer order is for "picking (exstore)," the process involves checking the actual availability by the warehouse staff. If product is available the requested product are picked from the warehouse by calling the warehouse robot control module. After retrieving the product, the system updates the occupancy status of the storage location in the inventory database. 
-
-The process then marks the transfer order as completed, indicating that the requested action (storage or retrieval) has been successfully executed.
 
 ## Overview of data and sources
 
