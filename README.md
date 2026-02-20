@@ -109,16 +109,18 @@ The next diagram shows the concrete data model of MySQL with all entities and at
 
 ![mysql_data_model](Updated_graphics/mysql_data_model.png "MySQL data model")
 
+Documentation and sample date of the FT factory is avaiable in the folder sample data. 
+
 ## Requirements and software architecture (work in progress)
 
 ### Requirements
-The following set of requirements has been gathered at the beginning of the project. It serves as the basis for the definition of a software architecture of the BPA Lab (work in progress):
+The following set of high level requirements has been gathered at the early beginning of the project (part of the thesis project). It served as the basis for the definition of the first software architecture of the BPA Lab:
 
 R1: Independent operation of the components
-The individual components of the system should be able to run independently of each other.
+The individual components/processes of the system should be able to run independently of each other; i.e. each process can be started individually without the need to trigger it from the upper level. 
 
 R2: Integration of external IT systems
-The system should allow seamless integration with existing IT systems, e.g. integration with the web application for order management or and Process Mining solution. 
+The system should allow integration with existing IT components, e.g. integration with the web application for order management or the flexible extraction of data for process mining and analytics. 
 
 R3: Clear and distinct responsibilities
 The responsibilities of the individual components should be clearly defined and distinguished.
@@ -146,9 +148,9 @@ The components should run stably under various operating conditions and avoid un
 R10: Maintainability and operation
 The system should be easy to maintain.
 
-### Software architecture (work in progress)
+### Software architecture
 
-The following C4 diagrams (https://c4model.com/) show the context and containers (not equal to the docker container) of the BPALab software architecture. Aspects are still under discussion and may be changed.
+The following C4 diagrams (https://c4model.com/) show the context and containers (not equal to the docker container) of the BPALab software architecture. Aspects are still under discussion and work in progress.
 
 ![C4 context diagram](C4architecture/c4-contextDiagram.drawio.png "C4 context diagram")
 
@@ -156,23 +158,23 @@ The following C4 diagrams (https://c4model.com/) show the context and containers
 
 ### Architecture questions and decisions (work in progress)
 
-In this section few questions on architecture raised during a later stage of the BPALab project and the respective decisions have been recorded (not complete)
+In this section few questions on architecture raised during the BPALab project and the respective decisions have been recorded (not complete)
 
-Decision 1: MQTT broker for communication between process applications and controller (decision done)
-Justification: decoupling, protocol common in IOT field
+Decision 1: Use of MQTT broker for communication between process applications (job workers) and controller (decision done)
+Justification: decoupling, MQTT as common protocol  in IOT field
 
-Decision 2: Model inter-process communication in BPMN by Message Send Tasks and Message Receive Task (decision done)
+Decision 2: Model inter-process communication in BPMN by Message Send Tasks and Message Receive Task instead of using events (decision done)
 Justification: Tasks offer use of boundary events e.g. to handle errors triggered by job workers
 
-Decision 3: Messages between processes and process application - see manufacturing prototype (decision done)
+Decision 3: Messages between processes and process application (decision done)
 Justification: to have simple solution and be aligned with process application - process control communication
 
 Decision 4: Using the self-managed version of Camunda 8 and Docker compose Camunda 8 core  (decision done)
-Justification: avoid interferences between members during development phase; development environment identical to production environment; note: performance with docker and number of containers to be verified
+Justification: avoid interferences between members during development phase; development environment identical to production environment; note: performance with docker and number of containers to be verified (no use of kubernetes, as this will nether be a production environment)
 
 Decision 5: Use JobWorker to send emails (decision done)
-Justifications: issues with SendGrid Connector; existing solution in project
+Justifications: issues with SendGrid Connector; existing solution in project; to be reconsidered later (ongoing development of connectors for Camunda 8) 
 
-Decision 6: Use JobWorker for database transaction and mysql database in docker container  (decision done)
-Justifications: existing solution in project
+Decision 6: Use JobWorker for database transaction and mysql database in docker container (decision done)
+Justifications: existing solution in project; more flexiblity than connectors (at time of decision)
 
