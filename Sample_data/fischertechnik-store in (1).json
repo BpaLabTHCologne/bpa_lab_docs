@@ -1,0 +1,4952 @@
+[
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:09.743Z"
+    }
+  },
+  {
+    "topic": "f/o/order",
+    "payload": {
+      "type": "RED",
+      "ts": "2022-08-22T13:47:11.809Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:47:12.251Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:47:12.251Z"
+    }
+  },
+  {
+    "topic": "f/i/order",
+    "payload": {
+      "state": "ORDERED",
+      "ts": "2022-08-22T13:47:12.505Z",
+      "type": "RED"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:12.808Z"
+    }
+  },
+  {
+    "topic": "f/i/order",
+    "payload": {
+      "state": "ORDERED",
+      "ts": "2022-08-22T13:47:12.505Z",
+      "type": "RED"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:12.873Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:47:12.838Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:47:12.952Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:12.808Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:12.873Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:47:12.838Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:47:12.952Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:47:14.455Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:47:14.469Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:47:14.455Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:47:14.469Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:47:15.695Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:47:15.695Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:19.976Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:19.976Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:47:22.265Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:22.320Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:47:22.265Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:22.491Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:22.320Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:22.491Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:23.828Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:23.828Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:47:24.503Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:47:24.520Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:47:24.503Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:47:24.520Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:47:25.833Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:47:25.833Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:30.002Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:30.002Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:47:32.352Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:47:32.352Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:47:34.558Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:47:34.558Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:47:34.574Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:47:34.574Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:47:35.932Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:47:35.932Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:40.017Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:40.017Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:47:41.763Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:47:41.763Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:41.886Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:41.886Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:47:42.505Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:47:42.505Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:42.700Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:42.700Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:47:44.607Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:47:44.691Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:47:44.607Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:44.740Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:47:44.691Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:44.740Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:45.579Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:45.595Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:45.579Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:45.595Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:47:45.949Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:47:45.949Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:46.682Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:47:46.682Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:47:46.820Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:47:46.880Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:47:46.820Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:47:46.858Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:47:46.880Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:47:46.983Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:47:46.858Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:47:46.983Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:47:50.107Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:47:50.107Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:47:52.549Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:47:52.549Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:47:52.730Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:47:52.839Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:47:52.730Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:47:52.839Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:47:54.740Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:47:54.872Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:47:54.740Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:47:54.872Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:47:55.999Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:47:56.009Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:47:55.999Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:47:56.009Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:48:00.200Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:48:00.200Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:48:02.657Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:48:02.657Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:48:04.920Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:48:05.002Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:48:04.920Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:48:05.002Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:48:06.134Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:48:06.134Z"
+    }
+  },
+  {
+    "topic": "f/i/order",
+    "payload": {
+      "state": "IN_PROCESS",
+      "ts": "2022-08-22T13:48:06.434Z",
+      "type": "RED"
+    }
+  },
+  {
+    "topic": "f/i/order",
+    "payload": {
+      "state": "IN_PROCESS",
+      "ts": "2022-08-22T13:48:06.434Z",
+      "type": "RED"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:48:06.597Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:48:06.597Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:48:10.217Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:48:10.217Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:48:11.060Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:48:11.137Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:48:11.060Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:48:11.137Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:48:11.695Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:48:11.695Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:48:12.204Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:48:12.343Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:48:12.402Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:48:12.204Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:48:12.509Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:48:12.574Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:48:12.343Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:48:12.627Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:48:12.693Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:48:12.402Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:48:12.687Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:48:12.735Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:48:12.821Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:48:12.509Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:48:12.874Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:48:12.574Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:48:12.627Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:48:12.693Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:48:12.687Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:48:12.735Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:48:12.821Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:48:12.874Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:48:15.057Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:48:15.109Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:48:15.057Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:48:15.109Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:48:16.249Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:48:16.249Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:48:17.052Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:48:17.078Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:48:17.052Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:48:17.097Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:48:17.130Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:48:17.158Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:48:17.078Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:48:17.097Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:48:17.130Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:48:17.158Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:48:20.423Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:48:20.423Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:48:22.803Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:48:22.803Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:48:25.160Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:48:25.292Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:48:25.160Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:48:25.292Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:48:26.263Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:48:26.263Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:48:30.504Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:48:30.504Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:48:32.885Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:48:32.885Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:48:35.401Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:48:35.548Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:48:35.401Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:48:35.548Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:48:36.530Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:48:36.530Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:48:40.522Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:48:40.522Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:48:42.904Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:48:42.904Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:48:45.601Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:48:45.617Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:48:45.601Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:48:45.617Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:48:46.553Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:48:46.553Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:48:50.536Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:48:50.536Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:48:52.918Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:48:52.918Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:48:55.642Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:48:55.755Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:48:55.642Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:48:55.755Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:48:56.574Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:48:56.574Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:48:58.075Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:48:58.075Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:49:00.165Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:49:00.165Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:49:00.586Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "mpo",
+      "ts": "2022-08-22T13:49:00.586Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:49:01.450Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:49:01.450Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:49:02.965Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:49:02.965Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:49:05.816Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:49:05.832Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:49:05.816Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:49:05.832Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:49:06.589Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:49:06.589Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:49:08.439Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:49:08.439Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:08.973Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:08.973Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:09.114Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:09.114Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:49:09.570Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:49:09.570Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:10.672Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:10.672Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:12.042Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:12.192Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:12.042Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:12.192Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:49:13.111Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:49:13.111Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:15.572Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:15.572Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:49:15.859Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:49:15.943Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:49:15.859Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:49:15.943Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:49:16.861Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:49:16.861Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:49:17.785Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:49:17.785Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 1,
+      "code": 1,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:49:17.977Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 1,
+      "code": 1,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:49:17.977Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:20.898Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:20.898Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:49:23.216Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:49:23.216Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:24.199Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:24.199Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:49:25.990Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:49:26.012Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:49:25.990Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:49:26.012Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:49:26.879Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:49:26.879Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:27.950Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:27.967Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:27.950Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:27.967Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:28.450Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:28.450Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:30.960Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:30.960Z"
+    }
+  },
+  {
+    "topic": "f/i/nfc/ds",
+    "payload": {
+      "history": [
+        {
+          "code": 100,
+          "ts": "2022-08-22T13:42:04.464Z"
+        },
+        {
+          "code": 200,
+          "ts": "2022-08-22T13:42:07.330Z"
+        },
+        {
+          "code": 300,
+          "ts": "2022-08-22T13:42:44.059Z"
+        },
+        {
+          "code": 800,
+          "ts": "2022-08-22T13:49:29.556Z"
+        }
+      ],
+      "ts": "2022-08-22T13:49:31.372Z",
+      "workpiece": {
+        "id": "043d69a2186581",
+        "state": "PROCESSED",
+        "type": "RED"
+      }
+    }
+  },
+  {
+    "topic": "f/i/nfc/ds",
+    "payload": {
+      "history": [
+        {
+          "code": 100,
+          "ts": "2022-08-22T13:42:04.464Z"
+        },
+        {
+          "code": 200,
+          "ts": "2022-08-22T13:42:07.330Z"
+        },
+        {
+          "code": 300,
+          "ts": "2022-08-22T13:42:44.059Z"
+        },
+        {
+          "code": 800,
+          "ts": "2022-08-22T13:49:29.556Z"
+        }
+      ],
+      "ts": "2022-08-22T13:49:31.372Z",
+      "workpiece": {
+        "id": "043d69a2186581",
+        "state": "PROCESSED",
+        "type": "RED"
+      }
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:49:31.471Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 1,
+      "code": 1,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:49:31.592Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:49:31.471Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 1,
+      "code": 1,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:49:31.592Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:49:33.339Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:49:33.339Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:49:36.034Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:49:36.082Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:49:36.034Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:49:36.082Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:36.353Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:36.353Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:36.985Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:49:37.007Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:37.211Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:36.985Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:49:37.007Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:37.211Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:39.449Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:39.618Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:39.449Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:39.618Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:49:39.934Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 1,
+      "code": 0,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:49:39.949Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:49:39.934Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 1,
+      "code": 0,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:49:39.949Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:40.982Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:40.982Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:49:43.350Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:49:43.350Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:45.812Z"
+    }
+  },
+  {
+    "topic": "f/i/order",
+    "payload": {
+      "state": "SHIPPED",
+      "ts": "2022-08-22T13:49:45.858Z",
+      "type": "RED"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:45.812Z"
+    }
+  },
+  {
+    "topic": "f/i/order",
+    "payload": {
+      "state": "SHIPPED",
+      "ts": "2022-08-22T13:49:45.858Z",
+      "type": "RED"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:49:46.125Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:49:46.358Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:49:46.125Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": {
+            "id": "04da67a2186580",
+            "state": "RAW",
+            "type": "BLUE"
+          }
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:49:46.358Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:49:47.219Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:49:47.219Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:49:47.904Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 0,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:49:47.937Z"
+    }
+  },
+  {
+    "topic": "f/i/order",
+    "payload": {
+      "state": "WAITING_FOR_ORDER",
+      "ts": "2022-08-22T13:49:48.011Z",
+      "type": "RED"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:49:47.904Z"
+    }
+  },
+  {
+    "topic": "f/i/order",
+    "payload": {
+      "state": "WAITING_FOR_ORDER",
+      "ts": "2022-08-22T13:49:48.153Z",
+      "type": "RED"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 0,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:49:47.937Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:49:48.246Z"
+    }
+  },
+  {
+    "topic": "f/i/order",
+    "payload": {
+      "state": "WAITING_FOR_ORDER",
+      "ts": "2022-08-22T13:49:48.011Z",
+      "type": "RED"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 0,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:49:48.336Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:48.395Z"
+    }
+  },
+  {
+    "topic": "f/i/order",
+    "payload": {
+      "state": "WAITING_FOR_ORDER",
+      "ts": "2022-08-22T13:49:48.153Z",
+      "type": "RED"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:48.432Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:48.466Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:49:48.246Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:49:48.522Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 0,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:49:48.594Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 0,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:49:48.336Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:49:48.639Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:48.395Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 0,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:49:48.695Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:48.432Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:49:48.466Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:49:48.522Z"
+    }
+  }
+]

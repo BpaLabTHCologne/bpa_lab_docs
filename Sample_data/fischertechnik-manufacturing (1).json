@@ -1,0 +1,3106 @@
+[
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:39:43.343Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:39:43.343Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:39:45.674Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "dso",
+      "ts": "2022-08-22T13:39:45.674Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 0,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:39:46.149Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 0,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:39:46.252Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 1,
+      "code": 0,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:39:46.309Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 0,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:39:46.149Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 0,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:39:46.430Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:46.464Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 0,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:39:46.252Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:46.490Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 0,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:39:46.551Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 1,
+      "code": 0,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:39:46.309Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 0,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:39:46.591Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 0,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:39:46.430Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:46.464Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:46.490Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 0,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:39:46.551Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 0,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:39:46.591Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:39:48.963Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:39:48.963Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:39:49.234Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": null
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": null
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:39:49.250Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:39:49.234Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": null
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": null
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:39:49.250Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:50.183Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:50.183Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:50.284Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:50.284Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:51.442Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:51.442Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:39:53.430Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:39:53.430Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:53.496Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:53.496Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 1,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:39:54.626Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 0,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:39:54.642Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 1,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:39:54.626Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 0,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:39:54.642Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:54.896Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:54.909Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:54.896Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:54.909Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:55.775Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:55.775Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:56.617Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:56.635Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:56.617Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:56.635Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:57.004Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:57.004Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:57.732Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:57.732Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:39:59.070Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:39:59.070Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:39:59.278Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": null
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": null
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:39:59.324Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:39:59.278Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:59.389Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": null
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": null
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:39:59.324Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:59.410Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:59.389Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:39:59.410Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:00.498Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:00.657Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:00.498Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:00.657Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:02.004Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:02.019Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:02.004Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:02.019Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:02.504Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:02.504Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:40:03.448Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:40:03.448Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:05.846Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:05.846Z"
+    }
+  },
+  {
+    "topic": "f/i/nfc/ds",
+    "payload": {
+      "history": null,
+      "ts": "2022-08-22T13:40:06.193Z",
+      "workpiece": {
+        "id": "04a664a2186580",
+        "state": "RAW",
+        "type": "NONE"
+      }
+    }
+  },
+  {
+    "topic": "f/i/nfc/ds",
+    "payload": {
+      "history": null,
+      "ts": "2022-08-22T13:40:06.193Z",
+      "workpiece": {
+        "id": "04a664a2186580",
+        "state": "RAW",
+        "type": "NONE"
+      }
+    }
+  },
+  {
+    "topic": "f/i/nfc/ds",
+    "payload": {
+      "history": [
+        {
+          "code": 100,
+          "ts": "2022-08-22T13:39:57.722Z"
+        },
+        {
+          "code": 200,
+          "ts": "2022-08-22T13:40:00.646Z"
+        }
+      ],
+      "ts": "2022-08-22T13:40:08.853Z",
+      "workpiece": {
+        "id": "04a664a2186580",
+        "state": "RAW",
+        "type": "WHITE"
+      }
+    }
+  },
+  {
+    "topic": "f/i/nfc/ds",
+    "payload": {
+      "history": [
+        {
+          "code": 100,
+          "ts": "2022-08-22T13:39:57.722Z"
+        },
+        {
+          "code": 200,
+          "ts": "2022-08-22T13:40:00.646Z"
+        }
+      ],
+      "ts": "2022-08-22T13:40:08.853Z",
+      "workpiece": {
+        "id": "04a664a2186580",
+        "state": "RAW",
+        "type": "WHITE"
+      }
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:40:08.950Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 0,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:40:08.993Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:40:08.966Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:40:08.950Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:09.055Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": null
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": null
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:40:09.051Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 0,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:40:08.993Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:40:09.162Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:40:08.966Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:09.055Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:40:09.350Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": null
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": null
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:40:09.051Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": null
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": null
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:40:09.391Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:40:09.162Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:40:09.350Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": null
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": null
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:40:09.391Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:40:10.670Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 0,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:40:10.685Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:40:10.670Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 0,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:40:10.685Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:40:11.708Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:40:11.810Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:40:11.708Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:40:11.810Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:40:13.463Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:40:13.463Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:15.953Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:15.953Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:17.659Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:17.686Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:17.659Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:17.686Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:18.870Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:18.870Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:40:19.246Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:40:19.430Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": null
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": null
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:40:19.475Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:40:19.246Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:40:19.430Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": null
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": null
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:40:19.475Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:40:23.653Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:40:23.653Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:26.215Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:26.215Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:40:29.470Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:40:29.470Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:40:29.571Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": null
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": null
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:40:29.602Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:40:29.571Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": null
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": null
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:40:29.602Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:40:33.674Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:40:33.674Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:36.233Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:36.233Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:40:37.972Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:40:37.972Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:38.090Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:40:38.107Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:38.090Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": null
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:40:38.177Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:40:38.107Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": null
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:40:38.177Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:40:39.530Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:40:39.530Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:40:39.635Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": null
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:40:39.652Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:40:39.635Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": null
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:40:39.652Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:40:43.734Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:40:43.734Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:46.348Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:46.348Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:47.074Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:40:47.175Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:47.074Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:40:47.371Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:47.647Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:40:47.175Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:47.697Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:47.750Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:40:47.371Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:40:47.811Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:40:47.866Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:47.647Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:40:47.904Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:40:47.956Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:47.697Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:47.750Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:40:47.811Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:40:47.866Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dsi",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dsi",
+      "ts": "2022-08-22T13:40:47.904Z"
+    }
+  },
+  {
+    "topic": "f/i/state/dso",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "dso",
+      "ts": "2022-08-22T13:40:47.956Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:40:49.551Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:40:49.671Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": null
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:40:49.690Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:40:49.551Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:40:49.671Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": null
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:40:49.690Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:40:53.754Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:40:53.754Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:56.362Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:40:56.362Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:40:59.605Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:40:59.605Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:40:59.724Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": null
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:40:59.755Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:40:59.724Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": null
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:40:59.755Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:41:02.263Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:41:02.286Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:41:02.263Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:41:02.286Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:41:03.768Z"
+    }
+  },
+  {
+    "topic": "f/i/state/mpo",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "mpo",
+      "ts": "2022-08-22T13:41:03.768Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:41:06.378Z"
+    }
+  },
+  {
+    "topic": "f/i/state/vgr",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "vgr",
+      "target": "hbw",
+      "ts": "2022-08-22T13:41:06.378Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:41:09.335Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:41:09.406Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:41:09.456Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:41:09.568Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:41:09.335Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 1,
+      "code": 2,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:41:09.406Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:41:09.688Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": null
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:41:09.758Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:41:09.816Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:41:09.456Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": null
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:41:09.851Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:41:09.568Z"
+    }
+  },
+  {
+    "topic": "f/i/state/sld",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "sld",
+      "ts": "2022-08-22T13:41:09.688Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": null
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:41:09.758Z"
+    }
+  },
+  {
+    "topic": "f/i/state/hbw",
+    "payload": {
+      "active": 0,
+      "code": 1,
+      "description": "",
+      "station": "hbw",
+      "ts": "2022-08-22T13:41:09.816Z"
+    }
+  },
+  {
+    "topic": "f/i/stock",
+    "payload": {
+      "stockItems": [
+        {
+          "location": "A1",
+          "workpiece": null
+        },
+        {
+          "location": "A2",
+          "workpiece": null
+        },
+        {
+          "location": "A3",
+          "workpiece": null
+        },
+        {
+          "location": "B1",
+          "workpiece": null
+        },
+        {
+          "location": "B2",
+          "workpiece": null
+        },
+        {
+          "location": "B3",
+          "workpiece": null
+        },
+        {
+          "location": "C1",
+          "workpiece": {
+            "id": "04a664a2186580",
+            "state": "RAW",
+            "type": "WHITE"
+          }
+        },
+        {
+          "location": "C2",
+          "workpiece": null
+        },
+        {
+          "location": "C3",
+          "workpiece": null
+        }
+      ],
+      "ts": "2022-08-22T13:41:09.851Z"
+    }
+  }
+]
